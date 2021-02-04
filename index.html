@@ -5,19 +5,36 @@
     <title>
       Metrolics
     </title>
-    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
     <link rel="metrolics-logo" href="icon.png">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
   </head>
 
-  <body>
+  <body class="page page-home">
     <header class="page__header"> <!--navigation menu-->
-      <div class="row"></div>
+      <div class="row m-1-2">
+        <nav class="mobile-nav m-hide l-hide">
+          Metrolics
+        </nav>
+        <div class="column">
+          <img class="logo" src="/metrolics-images/metrolics-fav.png">
+        </div>
+        <nav class="column main-nav">
+          <a href="" class="main_nav__item active">home</a>
+          <a href="" class="main_nav__item">pages</a>
+          <a href="" class="main_nav__item">blog</a>
+          <a href="" class="main_nav__item">portfolio</a>
+          <a href="" class="main_nav__item">contact</a>
+        </nav>
+      </div>
     </header>
 
-    <div class="page__slider"> <!--image slider-->
+    <div class="page__slider s-hide"> <!--image slider-->
       <div class="row">
           <div class="column">
-              <img src="img/paceholder.jpg" alt="slider placeholder">
+              <img src="/metrolics-images/heroimg.png" alt="slider placeholder">
           </div>
       </div>
     </div>
@@ -26,40 +43,44 @@
       <div class="row">
           <h1 class="heading">
             Hey guys! This is the Metrolics theme.<br>
-            It sports a responsice layout with mobile layout.
+            It sports a responsive layout with mobile layout.
           </h1>
       </div>
     </div>
     
     <section class="about"> <!--company services-->
-      <div class="row">
-          <div class="column">
-            <h2 class="heading">
-              Things that we do!
-            </h2>
-            <p class="paragraph__text">
-              Ask us what we can do for you.
-            </p>
-          </div>
-          <div class="column">
+      <div class="column span-full">
+        <h2 class="heading">
+          Things that we do!
+        </h2>
+        <p class="paragraph__text">
+          Ask us what we can do for you.
+        </p>
+      </div>
+      <div class="row l-col-4">
+          <div class="column flex">
+              <img src="/metrolics-images/icon-lightbulb.png" alt="Web Solutions">
               <h3 class="heading">Web Solutions</h3>
               <p class="paragraph__text">
                 Ask us what we can do for you.
               </p>
           </div>
-          <div class="column">
+          <div class="column flex">
+            <img src="/metrolics-images/icon-photo.png" alt="Photography">
             <h3 class="heading">Photography</h3>
             <p class="paragraph__text">
               Ask us what we can do for you.
             </p>
           </div>
-          <div class="column">
+          <div class="column flex">
+            <img src="/metrolics-images/icon-gears.png" alt="Web Development">
             <h3 class="heading">Web Development</h3>
             <p class="paragraph__text">
               Ask us what we can do for you.
             </p>
           </div>
-          <div class="column">
+          <div class="column flex">
+            <img src="/metrolics-images/icon-pencil.png" alt="Web Design">
             <h3 class="heading">Web Design</h3>
             <p class="paragraph__text">
               Ask us what we can do for you.
@@ -69,36 +90,36 @@
     </section> 
 
     <section class="projects"> <!--highlighted projects-->
-      <div class="row">
-        <div class="col">
-          <h2 class="heading">
-            What's Up Lately?
-          </h2>
-          <p class="paragraph__text">
-            Read up on our latest work.
-          </p>
-        </div>
+      <div class="column span-full">
+        <h2 class="heading">
+          What's Up Lately?
+        </h2>
+        <p class="paragraph__text">
+          Read up on our latest work.
+        </p>
+      </div>
+      <div class= "row m-col-2 l-col-3">
         <div class="column">
           <figure class="project">
-            <img src="img/paceholder.jpg" alt="placeholder">
+            <img src="/metrolics-images/project.png" alt="placeholder">
             <figcaption class="project__caption">
-              <h3 class="heading">project title</h3>
+              
             </figcaption>
           </figure>
         </div> 
         <div class="column">
           <figure class="project">
-            <img src="img/paceholder.svg" alt="placeholder">
+            <img src="/metrolics-images/project.png" alt="placeholder">
             <figcaption class="project__caption">
-              <h3 class="heading">project title</h3>
+              
             </figcaption>
           </figure>
         </div> 
         <div class="column">
           <figure class="project">
-            <img src="img/paceholder.jpg" alt="placeholder">
+            <img src="/metrolics-images/project.png" alt="placeholder">
             <figcaption class="project__caption">
-              <h3 class="heading">project title</h3>
+              
             </figcaption>
           </figure>
         </div> 
@@ -106,60 +127,60 @@
     </section>                
 
     <section class="portfolio"> <!--recent projects-->
-      <div class="row">
-        <div class="col">
-          <h2 class="heading">
-            Our Latest Projects?
-          </h2>
-          <p class="paragraph__text">
-            Clients happy? We are happy.
-          </p>
-        </div>
+      <div class="column span-full">
+        <h2 class="heading">
+          Our Latest Projects
+        </h2>
+        <p class="paragraph__text">
+          Clients happy? We are happy.
+        </p>
+      </div>
+      <div class="row m-col-2 l-col-3">
         <div class="column">
           <figure class="project">
-            <img src="img/paceholder.jpg" alt="placeholder">
+            <img src="/metrolics-images/project.png" alt="placeholder">
             <figcaption class="project__caption">
-              <h3 class="heading">project title</h3>
+              
             </figcaption>
           </figure>
         </div>
         <div class="column">
           <figure class="project">
-            <img src="img/paceholder.jpg" alt="placeholder">
+            <img src="/metrolics-images/project.png" alt="placeholder">
             <figcaption class="project__caption">
-              <h3 class="heading">project title</h3>
+              
             </figcaption>
           </figure>
         </div> 
         <div class="column">
           <figure class="project">
-            <img src="img/paceholder.jpg" alt="placeholder">
+            <img src="/metrolics-images/project.png" alt="placeholder">
             <figcaption class="project__caption">
-              <h3 class="heading">project title</h3>
+              
             </figcaption>
           </figure>
         </div> 
         <div class="column">
           <figure class="project">
-            <img src="img/paceholder.jpg" alt="placeholder">
+            <img src="/metrolics-images/project.png" alt="placeholder">
             <figcaption class="project__caption">
-              <h3 class="heading">project title</h3>
+              
             </figcaption>
           </figure>
         </div>
         <div class="column">
           <figure class="project">
-            <img src="img/paceholder.jpg" alt="placeholder">
+            <img src="/metrolics-images/project.png" alt="placeholder">
             <figcaption class="project__caption">
-              <h3 class="heading">project title</h3>
+              
             </figcaption>
           </figure>
         </div> 
         <div class="column">
           <figure class="project">
-            <img src="img/paceholder.jpg" alt="placeholder">
+            <img src="/metrolics-images/project.png" alt="placeholder">
             <figcaption class="project__caption">
-              <h3 class="heading">project title</h3>
+              
             </figcaption>
           </figure>
         </div> 
@@ -167,47 +188,44 @@
     </section> 
 
     <section class="thingsofabove"> <!--misc items-->
-      <div class="row">
+      <div class="column span-full">
+        <h2 class="heading">
+          Thingsofabove
+        </h2>
+        <p class="paragraph__text">
+          Misc stuff we could not put anyplace else.
+        </p>
+      </div>
+      <div class="row l-col-2">
           <div class="column">
-            <h2 class="heading">
-              Thingsofabove
-            </h2>
-            <p class="paragraph__text">
-              Misc stuff we could not put anyplace else.
-            </p>
-          </div>
-          <div class="column">
-            <p>element here</p>
-          </div>
-          <div class="column">
-            <p>element here</p>
-          </div>
+            <img src="/metrolics-images/section-accordian.png" alt="acordian menu">
+          </div>        
       </div>
     </section>
 
   <section class="sponsors"> <!--sponsors and partners-->
-    <div class="row">
+    <div class="row m-col-5">
       <div class="column">
-        <img src="img/paceholder.jpg" alt="placeholder">
+        <img src="/metrolics-images/logo-beans.png" alt="netbeans">
       </div>
       <div class="column">
-        <img src="img/paceholder.jpg" alt="placeholder">
+        <img src="/metrolics-images/logo-krita.png" alt="krita">
       </div>
       <div class="column">
-        <img src="img/paceholder.jpg" alt="placeholder">
+        <img src="/metrolics-images/logo-scirra.png" alt=scirra>
       </div>
       <div class="column">
-        <img src="img/paceholder.jpg" alt="placeholder">
+        <img src="/metrolics-images/logo-blender.png" alt="blender">
       </div>
       <div class="column">
-        <img src="img/paceholder.jpg" alt="placeholder">
+        <img src="/metrolics-images/logo-inkscape.png" alt="inkscape">
       </div>
     </div>
   </section>
 
     <footer class="page__footer"> <!--footer-->
-      <div class="row">
-        <div class="page__footer__intro column">
+      <div class="row m-col-2 l-col-4">
+        <div class="page__footer__intro column span-full">
           <h3 class="heading">
             Pewee Herman Intro
           </h3>
